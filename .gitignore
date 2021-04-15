@@ -1,0 +1,6 @@
+.*
+.env
+.ipynb_checkpoints/*
+__*
+**/__pycache__
+!.gitignore
