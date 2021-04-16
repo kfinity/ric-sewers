@@ -1,8 +1,8 @@
 # Richmond VA Sewer Systems
 
-The Richmond Department of Public Utilities supports both the [Wastewater Utility](http://rva.gov/public-utilities/wastewater-utilit) and [Stormwater Utility](https://rvah2o.org/). Like many older cities, it has a large [combined sewer system](https://rvah2o.org/combined-sewer-system/) which sometimes results in *combined sewer overflow* events, where wastewater ends up in the river.
+The Richmond Department of Public Utilities supports both the [Wastewater Utility](http://rva.gov/public-utilities/wastewater-utility) and [Stormwater Utility](https://rvah2o.org/). Like many older cities, it has a large [combined sewer system](https://rvah2o.org/combined-sewer-system/) which sometimes results in *combined sewer overflow* events, where wastewater ends up in the river.
 
-I couldn't find an easily accessible dataset of the Richmond sewer pipes, but I found some GIS layers published by [the DOEE, who have done some detailed TMDL documents](https://doee.dc.gov/service/total-maximum-daily-load-tmdl-documents) about bateria levels in waterways, and was able to convert them into a more usable format.
+I couldn't find an easily accessible dataset of the Richmond sewer pipes, but I found some [GIS layers](https://www.arcgis.com/home/search.html?q=owner%3A%22DOEE_GIS%22&t=content&restrict=false) published by [the DOEE, who have done some detailed TMDL documents](https://doee.dc.gov/service/total-maximum-daily-load-tmdl-documents) about bateria levels in waterways, and was able to convert them into a more usable format.
 
 Notes:
 
