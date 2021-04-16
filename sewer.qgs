@@ -5,33 +5,45 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="base_StreamPolygon20210415200035008" source="/home/kfinity/working/rva-sewer/Basemap/base_StreamPolygon.shp" name="base_StreamPolygon">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="base_LakePolygon20210415195955539" source="/home/kfinity/working/rva-sewer/Basemap/base_LakePolygon.shp" name="base_LakePolygon">
-      <customproperties/>
-    </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="richmond_cso_boundaries20210415200201561" source="/home/kfinity/working/rva-sewer/shapefile/richmond_cso_boundaries.shp" name="richmond_cso_boundaries">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="richmond_storm_sewers20210415200337074" source="/home/kfinity/working/rva-sewer/shapefile/richmond_storm_sewers.shp" name="richmond_storm_sewers">
-      <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="richmond_storm_sewers20210415200337074" source="/home/kfinity/working/rva-sewer/shapefile/richmond_storm_sewers.shp" name="richmond_storm_sewers">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="richmond_sewer_gravity_pipes20210415200324761" source="/home/kfinity/working/rva-sewer/shapefile/richmond_sewer_gravity_pipes.shp" name="richmond_sewer_gravity_pipes">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="base_StreamPolygon20210415200035008" source="/home/kfinity/working/rva-sewer/Basemap/base_StreamPolygon.shp" name="base_StreamPolygon">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="base_LakePolygon20210415195955539" source="/home/kfinity/working/rva-sewer/Basemap/base_LakePolygon.shp" name="base_LakePolygon">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="base_Road20210415195925592" source="/home/kfinity/working/rva-sewer/Basemap/base_Road.shp" name="base_Road">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>feet</units>
     <extent>
-      <xmin>11763648.85950069315731525</xmin>
-      <ymin>3700943.93214931013062596</ymin>
-      <xmax>11796323.99218182452023029</xmax>
-      <ymax>3730248.65063129784539342</ymax>
+      <xmin>11764888.56198097206652164</xmin>
+      <ymin>3708857.10499826353043318</ymin>
+      <xmax>11797563.69466210342943668</xmax>
+      <ymax>3738161.82348025124520063</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -61,6 +73,21 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richmond_cso_boundaries" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="richmond_cso_boundaries20210415200201561" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="richmond_storm_sewers" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="richmond_storm_sewers20210415200337074" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richmond_sewer_gravity_pipes" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="richmond_sewer_gravity_pipes20210415200324761" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="base_StreamPolygon" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="base_StreamPolygon20210415200035008" visible="1"/>
@@ -69,21 +96,6 @@
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="base_LakePolygon" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="base_LakePolygon20210415195955539" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richmond_cso_boundaries" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="richmond_cso_boundaries20210415200201561" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richmond_storm_sewers" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="richmond_storm_sewers20210415200337074" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="richmond_sewer_gravity_pipes" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="richmond_sewer_gravity_pipes20210415200324761" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="base_Road" showFeatureCount="0">
@@ -1490,6 +1502,10 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
+              <prop k="width_dd_active" v="1"/>
+              <prop k="width_dd_expression" v="(COALESCE( &quot;PipeSize&quot;, '0' ) + 1) * 0.01"/>
+              <prop k="width_dd_field" v="PipeSize"/>
+              <prop k="width_dd_useexpr" v="1"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
@@ -1509,6 +1525,10 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
+              <prop k="width_dd_active" v="1"/>
+              <prop k="width_dd_expression" v="(COALESCE( &quot;PipeSize&quot;, '0' ) + 1) * 0.01"/>
+              <prop k="width_dd_field" v="PipeSize"/>
+              <prop k="width_dd_useexpr" v="1"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
@@ -1528,6 +1548,10 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
+              <prop k="width_dd_active" v="1"/>
+              <prop k="width_dd_expression" v="(COALESCE( &quot;PipeSize&quot;, '0' ) + 1) * 0.01"/>
+              <prop k="width_dd_field" v="PipeSize"/>
+              <prop k="width_dd_useexpr" v="1"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
@@ -1547,6 +1571,10 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
+              <prop k="width_dd_active" v="1"/>
+              <prop k="width_dd_expression" v="(COALESCE( &quot;PipeSize&quot;, '0' ) + 1) * 0.01"/>
+              <prop k="width_dd_field" v="PipeSize"/>
+              <prop k="width_dd_useexpr" v="1"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
@@ -1560,7 +1588,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="196,65,66,255"/>
+              <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -1568,12 +1596,14 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
+              <prop k="width_dd_active" v="1"/>
+              <prop k="width_dd_expression" v="(COALESCE( &quot;PipeSize&quot;, '0' ) + 1) * 0.01"/>
+              <prop k="width_dd_field" v="PipeSize"/>
+              <prop k="width_dd_useexpr" v="1"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -1749,6 +1779,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1832,7 +1863,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="2048336032">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="COALESCE( &quot;PipeSize&quot;, '&lt;NULL>' )" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="FID"/>
           <column width="-1" hidden="0" type="field" name="OBJECTID"/>
@@ -1971,7 +2002,7 @@ def my_form_open(dialog, layer, feature):
         <default field="SHAPE_Leng" expression=""/>
         <default field="Shape__Len" expression=""/>
       </defaults>
-      <previewExpression></previewExpression>
+      <previewExpression>(COALESCE( "PipeSize", '0' ) + 1) * 0.1</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>richmond_storm_sewers20210415200337074</id>
