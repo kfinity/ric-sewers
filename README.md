@@ -6,14 +6,13 @@ I couldn't find an easily accessible dataset of the Richmond sewer pipes, but I 
 
 Notes:
 
-* shapefile.zip - If you're a GIS mapper, just download this and unzip it. It currently has 3 layers - the CSO boundaries, the storm drain system, and the sewer sytem (both separate and combined). 
+* shapefile.zip - If you're a GIS mapper, just download this and unzip it. It currently has 4 layers - the CSO boundaries, the storm drain system, the sewer sytem (both separate and combined), and the CSS outfalls. 
 * sewer_maps.ipynb - If you're a python developer, I did most of my coding here.
 * sewer.gqs - This QGIS project file has some colors and formatting.
 * Basemap/ - these files are from [Richmond GIS FTP](ftp://ftp.ci.richmond.va.us/GIS/Shapefiles/Basemap/)
 
 ![A map of Richmond sewer lines](pics/sewers.png)
 
-TODO
-* Add the combined sewer outfalls, maybe colored by combined area?
-* Shade the sewer lines by system, size, ?
-* Add an elevation layer
+I also found it interesting to combine some elevation data - I used the [National Map Downloader](https://apps.nationalmap.gov/downloader/) to grab "USGS 1/3 Arc Second n38w078 20210305" and cropped it to fit.
+
+![A map of Richmond sewer lines, colored by type, shaded by elevation, thickness by pipe size](pics/pipe size and elevation.png)
