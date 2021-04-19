@@ -15,4 +15,4 @@ Notes:
 
 I also found it interesting to combine some elevation data - I used the [National Map Downloader](https://apps.nationalmap.gov/downloader/) to grab "USGS 1/3 Arc Second n38w078 20210305" and cropped it to fit.
 
-![A map of Richmond sewer lines, colored by type, shaded by elevation, thickness by pipe size](pics/pipe size and elevation.png)
+![A map of Richmond sewer lines, colored by type, shaded by elevation, thickness by pipe size](pics/pipe%20size%20and%20elevation.png)
